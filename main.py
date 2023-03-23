@@ -1,4 +1,5 @@
 def encode(password):
+    # Mina Alkhazraji
     encoded_string = []
     for number in password:
         encoded_password = str((int(number) + 3) % 10)
